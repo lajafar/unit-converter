@@ -16,7 +16,6 @@ const meterToFeet =  3.281
 const literToGallon =  0.264
 const kiloToPound =  2.204
 
-function convertBtn() {
     convertBtn.addEventListener("click", function() {
         let baseValue = Number(inputEl.value);
     
@@ -32,7 +31,7 @@ function convertBtn() {
         volumeEl.textContent = `${baseValue} liters = ${gallonsValue} gallons | ${baseValue} gallons = ${litersValue} liters`;
         massEl.textContent = `${baseValue} kilos = ${poundsValue} pounds | ${baseValue} pounds = ${kilosValue} kilos`;
     });
-}
+
 
 
 window.convertBtn = convertBtn
