@@ -31,3 +31,5 @@ convertBtn.addEventListener("click", function() {
     volumeEl.textContent = `${baseValue} liters = ${gallonsValue} gallons | ${baseValue} gallons = ${litersValue} liters`;
     massEl.textContent = `${baseValue} kilos = ${poundsValue} pounds | ${baseValue} pounds = ${kilosValue} kilos`;
 });
+
+window.convertBtn = convertBtn
